@@ -15,7 +15,7 @@ import {
 const Hero = () => {
 
   const isMobile = window.innerWidth < 768;
-  const mobileStyling = ''
+
   return (
     <div className="hero
     w-full

@@ -8,15 +8,15 @@ import {
     FaYoutube
   } from 'react-icons/fa'
 
-function Social() {
+function Social({size}) {
   return (
     <div 
-    className='flex justify-between p-2 md:justify-center'
+    className='flex m-1 sm:justify-center max-w-[200px]'
     >
-    <FaGoogle className="cursor-pointer mx-2" size={30}/>
-    <FaLinkedinIn className="cursor-pointer mx-2" size={30}/>
-    <FaGithub className="cursor-pointer mx-2" size={30}/>
-    <FaVimeoV className="cursor-pointer mx-2" size={30}/>
+    <FaGoogle className="cursor-pointer mx-4" size={size}/>
+    <FaLinkedinIn className="cursor-pointer mx-4" size={size}/>
+    <FaGithub className="cursor-pointer mx-4" size={size}/>
+    <FaVimeoV className="cursor-pointer mx-4" size={size}/>
   </div>
   )
 }

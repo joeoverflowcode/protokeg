@@ -4,6 +4,12 @@ import smaller from '../assets/smaller.jpeg';
 import Hero from '../assets/Hero.png'
 import square from '../assets/square.jpeg';
 import Bio from './Bio';
+import Quote from './Quote';
+import Footer from './Footer';
+import MobileFooter from './MobileFooter';
+import Sidenav from './Sidenav';
+
+
 import {
   FaLinkedinIn,
   FaGithub,
@@ -11,50 +17,86 @@ import {
   FaVimeoV,
 } from 'react-icons/fa';
 import Button from './Button';
+import TypeWords from './TypeWords';
 
 const Sample = () => {
 
 
   return (
 <>
-  <div className='sm:hidden p-4 flex flex-col'>
+{/* <Sidenav iconColor={'text-white'} />  */}
+
+
+  <div className='sm:hidden w-screen h-screen p-4 flex flex-col items-center
+  bg-gradient-radial from-slate-600 via-slate-700 to-slate-900'>
 
     <img 
-    className="shadow-xl border-black border-8 rounded-full"
+    className="shadow-md border-8 border-slate-700 rounded-full"
     src={Hero}/>
-        <div>
+        <div className='flex flex-col items-center text-center text-white'>
     <Bio 
-    textColor="rgb(0,2,1)"/>
-    </div>
+    className='items-center text-5xl font-bold'
+    textColor="white"/>
+  <TypeWords 
+  className='text-3xl'/>
+
+  <div className='flex group mt-4'>
+
     <Button 
+    className='w-[150px] bg-gradient-to-b from-blue-900 to-gray-800 shadow-md
+    text-white rounded-full shadow-gray-800 m-4 p-4 cursor-pointer hover:scale-110 ease-in duration-300'
     text="My Work"/>
         <Button 
-      className='bg-zinc-300 font-bold text-black '
-    text="Contact"/>
+      className='w-[150px] bg-gradient-to-b from-blue-900 to-gray-800 shadow-md
+      text-white rounded-full shadow-gray-800 m-4 p-4 cursor-pointer hover:scale-110 ease-in duration-300 '
+      text="Contact"/>
+      </div>
+      </div>
+<Footer />
+
   </div>
 
+{/* 
+<div className='sm:block hidden'>
 
-    <div className='sm:block hidden w-full h-screen'>
-        <img 
-        className="h-full w-full top-0 left-0 object-cover pb-20"
-        src={heroImage} />
-
-      {/* <div 
-      className='absolute top-0 left-0 w-full h-full flex flex-col justify-start p-40'
-      > */}
-<div
-className='absolute top-0 left-0 w-full h-full flex col p-40 justify-end'
->
+    <div className='w-screen h-screen flex flex-col justify-end'>
 
 
+
+      <div 
+      className='absolute w-[500px] h-[500px] flex flex-col items-center justify-between top-0 right-0 mt-40'
+      >
+
+        <div>
+
+        <Quote 
+        className="font-serif"/>
+
+        </div>
+            
+      <div
+        className='flex flex-col items-center'
+        >
         <Bio 
-        textColor="white"/>
+        className="font-bold"/>
+        <TypeWords
+
+          color='black'/>
+        <Button 
+      className='w-[200px] bg-zinc-300 font-bold text-black '
+      text="Contact"/>
         </div>
+
+
         </div>
+                <img
+        className="h-full w-full top-0 object-cover object-left"
+        src={heroImage} />
+          <Footer/>
 
 
-      {/* </div> */}
-
+      </div>
+      </div> */}
         </>
 
   )
