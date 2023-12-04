@@ -31,10 +31,10 @@ function NewView() {
 bg-[url('../src/assets/DSC04562.jpeg')]
  w-full h-full bg-no-repeat bg-cover flex flex-col items-end">
 
-        <div className='h-full flex flex-col-reverse justify-evenly sm:w-[250px] md:w-[400px] sm:mr-8 md:mr-4 lg:mr-8 lg:mt-10 '>
+        <div className='h-[50%] w-screen flex flex-col-reverse justify-evenly sm:w-[250px] md:w-[400px] sm:mr-8 md:mr-4 lg:mr-8 lg:mt-10 '>
 
                 <div className='w-full sm:mr-4'>
-                        <Quote className='text-gray-600 sm:text-1xl md:text-2xl font-serif'
+                        <Quote className='text-gray-600 sm:text-1xl md:text-4xl font-serif bg-slate-400/50 rounded-lg p-4'
                         
                          />
                 </div>

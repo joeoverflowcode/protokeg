@@ -3,11 +3,19 @@ import Skill from './Skill'
 
 function Skills() {
     return (
-        <div className="my-20 flex flex-col justify-center ">
+        <div className="w-screen h-screen flex flex-col bg-gradient-radial from-slate-600 via-slate-700 to-slate-900 items-center">
+<div className='sm:w-[70%] h-[95%] flex flex-col'>
 
-                <h1 className='text-center sm:text-5xl text-2xl font-bold underline'>Skills</h1>
 
-            <div className="m-10 grid grid-cols-4 sm:pl-20 md:grid-cols-5 lg:grid-cols-7 gap-10 grid-auto-rows-auto">
+                <h1 className='text-center text-4xl sm:text-5xl font-bold underline text-white m-10'>Skills</h1>
+<div>
+
+    <p className='text-3xl p-4 m-6 text-white'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br></br>
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+</div>
+            <div className="p-8 md:p-4 grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 sm:gap-12 grid-auto-rows-auto text-white">
 
                 <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"alt="The logo icon for JavaScript" title="JavaScript"/>
 
@@ -40,13 +48,13 @@ function Skills() {
                 <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" alt="The logo icon for Sequelize" title="Sequelize"/>
 
 
-                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"alt="Java" title="Express"/>
+                {/* <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"alt="Java" title="Express"/> */}
 
 
                 {/* <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg"alt="Java" title="Visual Studio"/> */}
 
 
-                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" alt="The logo icon for NPM" title="NPM"/>
+                {/* <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" alt="The logo icon for NPM" title="NPM"/> */}
 
                 <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="The logo icon for NodeJS" title="Node JS"/>  
                 
@@ -76,7 +84,7 @@ function Skills() {
 {/* 
                 <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg"alt="Java" title="XCode"/> */}
 
-                
+                </div>
             </div>            
         </div>
     )

@@ -90,20 +90,19 @@ function TopNav({iconColor}) {
             )
         }
 
-<div className='sm:block hidden absolute z-10'>
-    <div className='w-screen absolute top-[2%] left-0 h-[10vh] bg-black/10 flex justify-between items-center p-4 text-white'>
-        <a href="#" className="text-4xl font-bold hover:translate-y-2 ease-in duration-200">J<span className='pl-2'>A</span></a>
+<div className='sm:block hidden'>
+
+    <div className='flex justify-between items-center text-white'>
+        <a href="#" className="text-4xl font-bold hover:translate-y-1 ease-in duration-100">J<span className='pl-2'>A</span></a>
         <ul className="flex font-bold">
-  <li className='p-2 hover:bg-pink-200'><a href="#">About</a></li>
-  <li className='p-2 hover:text-blue-500'><a href="#">Skills</a></li>
-  <li className='p-2 hover:underline'><a href="#">Projects</a></li>
-  <li className='p-2 hover:opacity-20'><a href="#">Contact</a></li>
 
-
-  <li className='p-2 hover:scale-110 hover:opacity-50 ease-in duration-200'><a href="#">About</a></li>
+  <li className='p-2 border-b-2 border-transparent hover:border-gray-100'><a href="#">About</a></li>
+  <li className='p-2 hover:opacity-80 hover:scale-125 hover:text-blue-600'><a href="#" className=''>Projects</a></li>
   <li className='p-2 hover:rotate-45'><a href="#" className=''>Skills</a></li>
-  <li className='p-2 hover:opacity-50 hover:underline'><a href="#" className=''>Projects</a></li>
-  <li className='p-2 hover:translate-y-2 ease-in duration-500'><a href="#" className=''>Contact</a></li>
+
+
+
+  <li className='p-2 hover:translate-y-2 hover:scale-125  ease-in duration-100 border-b-2 border-transparent  hover:border-blue-600'><a href="#" className='hover:shadow-md '>Contact</a></li>
 
 </ul>
 </div>

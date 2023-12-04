@@ -12,7 +12,7 @@ import {
   
   function Bio({className}) {
 
-    const defaultBioStyle =`flex flex-col ${className}`
+    const defaultBioStyle =`flex flex-col p-1 ${className}`
 
   return (
 

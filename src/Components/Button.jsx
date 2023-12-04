@@ -1,16 +1,21 @@
 import React from 'react'
 import { AiOutlineProject } from 'react-icons/ai'
 
-function Button({text, className}) {
+function Button({text, className, tStyle, href}) {
   
-    const defaultButtonStyle= `flex justify-center ${className}`
-  
+    const defaultButtonStyle= `flex flex-col items-center w-[75%] ${className}`
+
+    const textStyle= `${tStyle}`
+
+
     return (
-  
-  <a href="#Main"
-  className={defaultButtonStyle}> 
+
+  <div className={defaultButtonStyle}>
+  <a href={href}
+  className=''> 
   {/* <AiOutlineProject size={25}/> */}
-  <span className='font-bold'>{text}</span></a>
+  <span className={textStyle}>{text}</span></a>
+  </div>
     )
 }
 

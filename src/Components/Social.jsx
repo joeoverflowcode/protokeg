@@ -11,12 +11,32 @@ import {
 function Social({size}) {
   return (
     <div 
-    className='flex m-1 sm:justify-center max-w-[200px]'
+    className='flex sm:justify-center'
     >
-    <FaGoogle className="cursor-pointer mx-4" size={size}/>
-    <FaLinkedinIn className="cursor-pointer mx-4" size={size}/>
-    <FaGithub className="cursor-pointer mx-4" size={size}/>
-    <FaVimeoV className="cursor-pointer mx-4" size={size}/>
+
+<a href='#Google' className='cursor-pointer flex'>
+
+   <FaGoogle className=" ml-4" size={size}/> 
+   <span className='pl-1'>Google</span>
+</a>
+
+
+
+   <a href='#LinkedIn' className='cursor-pointer flex'>
+
+   <FaLinkedinIn className=" ml-4" size={size}/> <span className='pl-1'>LinkedIn</span>
+   </a>
+
+   <a href='https://github.com/joeoverflowcode/' className='cursor-pointer flex'>
+
+<FaGithub className=" ml-4" size={size}/>    <span className='pl-1'>GitHub</span>
+   </a>
+
+
+<a href='#Vimeo' className='cursor-pointer flex'>
+
+   <FaVimeoV className=" ml-4" size={size}/> <span className='pl-1'>Vimeo</span>
+</a>
   </div>
   )
 }

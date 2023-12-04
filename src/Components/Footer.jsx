@@ -3,8 +3,8 @@ import React from 'react'
 import Social from './Social';
 function Footer() {
   return (
-    <footer className=" bg-gray-900 text-lime-50 bottom-0 w-full fixed
-    flex flex-col text-center items-center sm:justify-end sm:items-end sm:px-10
+    <footer className="
+       flex sm:justify-between sm:px-10 sm:p-2
     ">
 
         <div
@@ -12,7 +12,7 @@ function Footer() {
         >&copy; 2023 Joe Aguado Development</div>
 
         <Social 
-        size={25}/>
+        size={28}/>
 
   </footer>
 )

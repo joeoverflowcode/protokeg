@@ -3,7 +3,7 @@ import { TypeAnimation } from 'react-type-animation'
 
 function TypeWords({className, repeat}) {
 
-  const defaultStyle = `${className}`
+  const defaultStyle = `p-1 ${className}`
 
   return (
 

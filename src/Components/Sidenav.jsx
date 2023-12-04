@@ -9,13 +9,21 @@ import {
     AiOutlineProject,
     AiOutlineMail,
     AiOutlineFile,
-    AiOutlineFileProtect
+    AiOutlineFileProtect,
+    AiOutlineTool
 
 } from 'react-icons/ai'
 
 import{BsPerson,
     BsTrophy,
-    BsFile
+    BsFile,
+    BsBarChartLine,
+    BsColumnsGap,
+    BsFileImage,
+    BsJournals,
+    BsGraphUp,
+    BsImages,
+    BsTools
 } from 'react-icons/bs'
 
 import {GrProjects,
@@ -48,18 +56,18 @@ function Sidenav({iconColor}) {
         { nav ? (
             <div className='sm:hidden fixed w-full h-screen bg-white/70 flex flex-col justify-center items-center z-20'>
 
-                <a href='#main' className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+                <a href='/' className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                     <AiOutlineHome
                     size={20}/>
                     <span className='pl-4'>Home</span>
                 </a>
-                <a href='#about' 
+                <a href='/about' 
                 className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                     <BsPerson
                     size={20}/>
                     <span className='pl-4'>About</span>
                 </a>
-                <a href='#skills' 
+                <a href='/skills' 
                 className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                     <GrAchievement
                     size={20}/>
@@ -109,7 +117,7 @@ Home
 
                 </a>
 
-                <a href='#about' className='text-white rounded-full shadow-md bg-gray-700 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 group'>
+                <a href='/about' className='text-white rounded-full shadow-md bg-gray-700 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 group'>
                     
                 <div className='px-2 absolute left-full opacity-0 invisible transition duration-500 ease-in-out group-hover:opacity-100 group-hover:visible font-bold text-xl
                                     from-gray-50 via-gray-100 to-gray-500 bg-gradient-to-b bg-clip-text text-transparent
@@ -129,24 +137,35 @@ About
                 </a> */}
                 <a href='/skills' className='text-white rounded-full shadow-md bg-gray-600 shadow-gray-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 group'>
 
-
                 <div className='px-2 absolute left-full opacity-0 invisible transition duration-700 ease-in-out group-hover:opacity-100 group-hover:visible font-bold text-xl
                                     from-gray-50 via-gray-100 to-gray-500 bg-gradient-to-b bg-clip-text text-transparent
                 ' >
 Skills
 </div>
-                    <AiOutlineProject size={30}/>
+                    <BsBarChartLine size={30}/>
                 </a>
-                {/* <a href='#projects' className='text-white rounded-full shadow-lg bg-slate-400 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+
+
+                <a href='#projects' className='text-white rounded-full shadow-md bg-gray-500 shadow-gray-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 group'>
+
+
+<div className='px-2 absolute left-full opacity-0 invisible transition duration-700 ease-in-out group-hover:opacity-100 group-hover:visible font-bold text-xl
+                    from-gray-50 via-gray-100 to-gray-500 bg-gradient-to-b bg-clip-text text-transparent' >
+Projects
+</div>
+    <BsJournals
+        size={30}/>
+</a>
+                 {/* <a href='#projects' className='text-white rounded-full shadow-lg bg-slate-400 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <GrProjects size={30}/>
-                </a> */}
-                {/* <a href='#resume' className='text-white rounded-full shadow-lg bg-slate-400 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                </a>
+                <a href='#resume' className='text-white rounded-full shadow-lg bg-slate-400 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <GrDocumentUser size={30}/>
 
 
                 </a> */}
                 
-                <a href='#contact' className=' text-white  
+                <a href='mailto:aguado.joe@gmail.com?subject=Something' className=' text-white  
                 bg-gradient-to-b from-blue-900 to-gray-800 shadow-md
                 rounded-full shadow-gray-500
                 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 relative

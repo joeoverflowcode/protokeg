@@ -17,20 +17,20 @@ import TopNav from './Components/TopNav'
 import PopUpNav from './Components/PopUpNav'
 import MobileFooter from './Components/MobileFooter'
 import { Outlet } from 'react-router-dom'
-
+import ShakeShack from './Views/ShakeShack'
 
 function App() {
 
 
   return (
 
-  <div className='flex flex-col '>
+  <div className='w-screen h-screen flex flex-col justify-between'>
 
 {/* <PopUpNav /> */}
 {/* <TopNav /> */}
 
       {/* <TestingBG /> */}
-      <Sidenav />
+      {/* <Sidenav /> */}
 
 {/* <NewView/> */}
 
@@ -49,10 +49,10 @@ function App() {
 <Outlet />
       </main>
 
-      <MobileFooter className=" 
-      fixed bottom-0 left-0
-      bg-gradient-to-r from-blue-950 from-1% via-gray-700 via-15% to-gray-900 to-60%"/>
+      {/* <MobileFooter className=" 
+      bg-gradient-to-r from-blue-950 from-1% via-gray-700 via-15% to-gray-900 to-60%"/> */}
     </div>
+
   )
 }
 

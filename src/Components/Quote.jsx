@@ -34,7 +34,7 @@ return (
 <div className="">
         <h2 >{randomQuote.quote && <div 
         className={defaultQuoteStyle}
-        style={{ textShadow: '1px 1px 1px rgba(0, 0, 0, 0.5)' }}
+        style={{ textShadow: '1px 1px 2px rgba(0, 0, 0, 0.5)' }}
         > 
         <p
 
