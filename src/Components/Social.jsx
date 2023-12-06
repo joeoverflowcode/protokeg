@@ -14,26 +14,26 @@ function Social({size}) {
     className='flex sm:justify-center'
     >
 
-<a href='#Google' className='cursor-pointer flex'>
+<a href='mailto:aguado.joe@gmail.com?subject=Work' className='cursor-pointer flex hover:text-blue-600'>
 
    <FaGoogle className=" ml-4" size={size}/> 
-   <span className='pl-1'>Google</span>
+   <span className='pl-1'>GMail</span>
 </a>
 
 
 
-   <a href='#LinkedIn' className='cursor-pointer flex'>
+   <a href='https://www.linkedin.com/in/joe-aguado-3a455311b/' className='cursor-pointer flex hover:text-blue-600'>
 
    <FaLinkedinIn className=" ml-4" size={size}/> <span className='pl-1'>LinkedIn</span>
    </a>
 
-   <a href='https://github.com/joeoverflowcode/' className='cursor-pointer flex'>
+   <a href='https://github.com/joeoverflowcode/' className='cursor-pointer flex hover:text-blue-600'>
 
-<FaGithub className=" ml-4" size={size}/>    <span className='pl-1'>GitHub</span>
+<FaGithub className=" ml-4" size={size}/><span className='pl-1'>GitHub</span>
    </a>
 
 
-<a href='#Vimeo' className='cursor-pointer flex'>
+<a href='https://vimeo.com/user3712098' className='cursor-pointer flex hover:text-blue-600'>
 
    <FaVimeoV className=" ml-4" size={size}/> <span className='pl-1'>Vimeo</span>
 </a>

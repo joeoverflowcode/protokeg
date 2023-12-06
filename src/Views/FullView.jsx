@@ -1,35 +1,23 @@
-import React from 'react'
-import TopNav from '../Components/TopNav'
-import MobileFooter from '../Components/MobileFooter'
-import Footer from '../Components/Footer'
 import Bio from '../Components/Bio'
 import TypeWords from '../Components/TypeWords'
 import Button from '../Components/Button'
-import Quote from '../Components/Quote'
-import MobileView from '../Components/MobileView'
-import FullView from './FullView'
 
+import React from 'react'
 
-
-function ShakeShack() {
-
+function FullView() {
   return (
+    <div className='sm:block hidden flex-col h-full'>
 
-  
-
-
-
-    <div className='flex flex-col h-screen'>
-
-    <MobileView/>
-    <FullView />
-
-    {/* <div className=' flex-1 bg-blue-200 flex items-center justify-center'>
-
+    <div className=' flex flex-col h-full'>
+        <div className=' flex-1 bg-blue-200 flex items-center justify-center'>
+      {/* Your Background Image */}
       <div className='w-full h-full bg-cover bg-no-repeat' style={{backgroundImage: 'url(../src/assets/Hero1920.png)' }}>
-
+        {/* Content Inside the Background */}
         <div className='w-full h-full flex'>
 
+{/* <div className=''>
+<Quote />
+</div> */}
 
 
         <div className='w-[60%] h-full'>
@@ -51,9 +39,15 @@ function ShakeShack() {
     tStyle='text-white m-2 flex font-bold tracking-widest'
     />
 </div>
-<div className='h-[20%]'>
-  
 
+
+<div className='h-[20%]'>
+    {/* <div className='hidden lg:block lg:mx-20 border-2 border-white p-2 shadow-md'>
+
+<Quote 
+className='text-2xl tracking-wider text-white'
+/>
+</div> */}
         </div>
 </div>
         </div>
@@ -61,12 +55,11 @@ function ShakeShack() {
 
 
       </div>
-    </div> */}
+    </div>
 
-
-  </div>
-//  </div>
+    </div>
+</div>
   )
 }
 
-export default ShakeShack
+export default FullView

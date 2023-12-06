@@ -24,7 +24,7 @@ function App() {
 
   return (
 
-  <div className='w-screen h-screen flex flex-col justify-between'>
+  <div className='flex flex-col h-screen'>
 
 {/* <PopUpNav /> */}
 {/* <TopNav /> */}
@@ -45,13 +45,30 @@ function App() {
     {/* <Footer/> */}
       {/* <Skills /> */}
 
-      <main>
+      <main className='flex flex-col h-screen'>
+      <nav className=' '>
+        <TopNav />
+
+    </nav>
+
 <Outlet />
+
+
+    <footer className='bg-gray-900 text-white sticky bottom-0 z-50'>
+    <Footer />
+    
+    </footer>
+
+
+
       </main>
 
       {/* <MobileFooter className=" 
       bg-gradient-to-r from-blue-950 from-1% via-gray-700 via-15% to-gray-900 to-60%"/> */}
-    </div>
+
+
+
+</div>
 
   )
 }

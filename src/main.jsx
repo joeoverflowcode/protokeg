@@ -19,6 +19,8 @@ import Skills from './Components/Skills.jsx'
 import NewView from './Components/NewView.jsx'
 import ErrorPage from './Views/ErrorPage.jsx'
 import ShakeShack from './Views/ShakeShack.jsx'
+import MobileView from './Components/MobileView.jsx'
+import Projects from './Views/Projects.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -48,6 +50,10 @@ path='about'
 element={<About />}
 />
 
+<Route
+path='projects'
+element={<Projects />}
+/>
 
 </Route>
 
