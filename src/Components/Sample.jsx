@@ -18,6 +18,7 @@ import {
 } from 'react-icons/fa';
 import Button from './Button';
 import TypeWords from './TypeWords';
+import NewButton from './NewButton';
 
 const Sample = () => {
 
@@ -31,7 +32,7 @@ const Sample = () => {
   bg-gradient-radial from-slate-600 via-slate-700 to-slate-900'>
 
     <img 
-    className="shadow-md border-8 border-slate-700 rounded-full"
+    className="shadow-md w-[95%] border-8 border-gray-900 rounded-full"
     src={Hero}/>
         <div className='flex flex-col items-center text-center text-white'>
     <Bio 
@@ -42,17 +43,10 @@ const Sample = () => {
 
   <div className='flex group mt-4'>
 
-    <Button 
-    className='w-[150px] bg-gradient-to-b from-blue-900 to-gray-800 shadow-md
-    text-white rounded-full shadow-gray-800 m-4 p-4 cursor-pointer hover:scale-110 ease-in duration-300'
-    text="My Work"/>
-        <Button 
-      className='w-[150px] bg-gradient-to-b from-blue-900 to-gray-800 shadow-md
-      text-white rounded-full shadow-gray-800 m-4 p-4 cursor-pointer hover:scale-110 ease-in duration-300 '
-      text="Contact"/>
+        <NewButton/>
       </div>
       </div>
-<Footer />
+
 
   </div>
 

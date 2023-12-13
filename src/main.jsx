@@ -15,12 +15,14 @@ import {
 
  import { BrowserRouter as Router, Link } from 'react-router-dom'
 
-import Skills from './Components/Skills.jsx'
+import Skills from './Views/Skills.jsx'
 import NewView from './Components/NewView.jsx'
 import ErrorPage from './Views/ErrorPage.jsx'
 import ShakeShack from './Views/ShakeShack.jsx'
 import MobileView from './Components/MobileView.jsx'
 import Projects from './Views/Projects.jsx'
+import Contact from './Views/Contact.jsx'
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -43,16 +45,25 @@ const router = createBrowserRouter(
 <Route 
 path='skills'
 element={<Skills />}
+errorElement={<ErrorPage />}
 />
 
 <Route
 path='about'
 element={<About />}
+errorElement={<ErrorPage />}
 />
 
 <Route
 path='projects'
 element={<Projects />}
+errorElement={<ErrorPage />}
+/>
+
+<Route
+path='contact'
+element={<Contact />}
+errorElement={<ErrorPage />}
 />
 
 </Route>

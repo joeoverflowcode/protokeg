@@ -8,6 +8,7 @@ import Button from '../Components/Button'
 import Quote from '../Components/Quote'
 import MobileView from '../Components/MobileView'
 import FullView from './FullView'
+import Sample from '../Components/Sample'
 
 
 
@@ -20,7 +21,7 @@ function ShakeShack() {
 
 
     <div className='flex flex-col h-screen'>
-
+{/* <Sample/> */}
     <MobileView/>
     <FullView />
 

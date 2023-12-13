@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from './Components/Hero'
 import Sidenav from './Components/Sidenav'
-import Skills from './Components/Skills'
+import Skills from './Views/Skills'
 import Sample from './Components/Sample'
 import Bio from './Components/Bio'
 import Social from './Components/Social'
@@ -19,12 +19,14 @@ import MobileFooter from './Components/MobileFooter'
 import { Outlet } from 'react-router-dom'
 import ShakeShack from './Views/ShakeShack'
 
+
+
 function App() {
 
 
   return (
 
-  <div className='flex flex-col h-screen'>
+  <div className='flex flex-col h-screen justify-between'>
 
 {/* <PopUpNav /> */}
 {/* <TopNav /> */}
@@ -45,11 +47,12 @@ function App() {
     {/* <Footer/> */}
       {/* <Skills /> */}
 
-      <main className='flex flex-col h-screen'>
-      <nav className=' '>
+      <main className='flex flex-col h-screen justify-between'>
+      
         <TopNav />
 
-    </nav>
+
+  
 
 <Outlet />
 

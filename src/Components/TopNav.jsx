@@ -33,7 +33,7 @@ function TopNav({iconColor}) {
         setNav(!nav)
         console.log('state changed')
     }
-    const outlineMenuColor = `${iconColor} text-white absolute top-4 right-4 z-[99] sm:hidden`
+    const outlineMenuColor = `${iconColor} absolute top-4 right-4 z-[99] sm:hidden text-white`
 
 
   return (
@@ -79,7 +79,7 @@ function TopNav({iconColor}) {
                     size={20}/>
                     <span className='pl-4'>Resume</span>
                 </a> */}
-                <a href='#contact' className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+                <a href='/contact' className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                     <AiOutlineMail
                     size={20}/>
                     <span className='pl-4'>Contact</span>
@@ -104,7 +104,7 @@ function TopNav({iconColor}) {
 
 
 
- <a href="#" className=' p-2 hover:translate-y-2 hover:scale-125  ease-in duration-100 border-b-2 border-transparent  hover:border-blue-600'>Contact</a>
+ <a href="/contact" className=' p-2 hover:translate-y-2 hover:scale-125  ease-in duration-100 border-b-2 border-transparent  hover:border-blue-600'>Contact</a>
 
 </ul>
 </div>
