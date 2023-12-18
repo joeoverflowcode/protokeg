@@ -8,7 +8,7 @@ function Skills() {
 
         <div className="flex flex-col bg-gradient-radial from-slate-100 via-neutral-200 to-gray-500">
 
-
+{/* 
 <div className='flex-1 flex-col'>
 
                 <h1 className='text-center m-2 text-4xl sm:text-5xl font-bold underline '>Skills</h1>
@@ -17,7 +17,7 @@ function Skills() {
     </p>
     <p className='text-3xl p-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
     </p>
-</div>
+</div> */}
 <div className='w-full h-full flex justify-center'>
 
 

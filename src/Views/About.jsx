@@ -12,7 +12,7 @@ import MonoSurf from '../assets/joe 2.jpeg'
 import Button from '../Components/Button'
 import Quote from '../Components/Quote'
 import NewButton from '../Components/NewButton'
-
+import MonoSurfEdit from '../assets/MonoSurfEdit.png'
 function About() {
   return (
     <>
@@ -20,7 +20,7 @@ function About() {
 
 <div className='flex flex-col sm:flex items-center mt-8'>
 
-<img className='max-w-[60%] m-auto border-2 border-black' src={MonoSurf}/> 
+<img className='max-w-[60%] m-auto border-2 border-black' src={MonoSurfEdit}/> 
 <h4 className='flex flex-col text-center items-center m-auto'>Oaxaca, Puerto Escondido 2025</h4>     
 </div>
 
@@ -51,7 +51,7 @@ function About() {
 
 <div className='flex flex-col max-w-[40%] justify-center p-8'>
 
-<img className='max-w-[400px] border-2 border-black' src={MonoSurf}/> 
+<img className='max-w-[400px] border-2 border-black' src={MonoSurfEdit}/> 
 <h4>Oaxaca, Puerto Escondido 2021</h4>     
 </div>
 <div className='flex flex-col justify-center'>
