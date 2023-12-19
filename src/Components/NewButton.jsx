@@ -4,7 +4,7 @@ import '../Components/Style/NewButton.css'
 function NewButton() {
   return (
 <>
-<a href='/contact' className="cssbuttons-io-button">
+<a href='/contact' className="cssbuttons-io-button" target="_blank" rel="noopener noreferrer">
   Contact
   <div className="icon">
     <svg

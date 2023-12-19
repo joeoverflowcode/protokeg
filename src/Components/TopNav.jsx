@@ -24,6 +24,7 @@ import {GrProjects,
     GrAchievement,
 } from 'react-icons/gr'
 
+import { Link } from 'react-router-dom'
 
 function TopNav({iconColor}) {
 
@@ -100,12 +101,13 @@ function TopNav({iconColor}) {
   <a className="p-2 border-b-2 border-transparent hover:border-gray-100" href="/about">About</a>
 
   <a className="p-2 hover:opacity-80 hover:scale-125 hover:text-blue-600" href="/projects">Projects</a>
- <a href="/skills" className='p-2 hover:rotate-45'>Skills</a>
+ {/* <a href="/skills" className='p-2 hover:rotate-45'>Skills</a> */}
+ <Link to='/skills' className='p-2 hover:rotate-45' target='_blank'>Skills</Link>
 
 
 
- <a href="/contact" className=' p-2 hover:translate-y-2 hover:scale-125  ease-in duration-100 border-b-2 border-transparent  hover:border-blue-600'>Contact</a>
-
+ {/* <a href="/contact" className=' p-2 hover:translate-y-2 hover:scale-125  ease-in duration-100 border-b-2 border-transparent  hover:border-blue-600'>Contact</a> */}
+<Link to='/contact' className='p-2 hover:translate-y-2 hover:scale-125  ease-in duration-100 border-b-2 border-transparent  hover:border-blue-600' target='_blank'>Contact</Link>
 </ul>
 </div>
 
