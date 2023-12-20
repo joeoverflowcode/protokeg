@@ -8,33 +8,36 @@ import {
     FaYoutube
   } from 'react-icons/fa'
 
-function Social({size}) {
+function Social({size, className}) {
+
+   const defaultStyle = `${className}`
+
   return (
     <div 
-    className='flex sm:justify-center'
+    className='flex sm:justify-center p-1' 
     >
 
-<a href='mailto:aguado.joe@gmail.com?subject=Work Inquiry' className='cursor-pointer flex hover:text-blue-600'>
+<a href='mailto:aguado.joe@gmail.com?subject=Work Inquiry' className='cursor-pointer flex hover:text-blue-600 p-1'>
 
-   <FaGoogle className=" ml-4" size={size}/> 
-   <span className='pl-1'>GMail</span>
+   <FaGoogle className="" size={size}/> 
+   <span className='pl-1 hidden sm:block'>GMail</span>
 </a>
 
 
-   <a href='https://www.linkedin.com/in/joe-aguado-3a455311b/' className='cursor-pointer flex hover:text-blue-600' target="_blank" rel="noopener noreferrer">
+   <a href='https://www.linkedin.com/in/joe-aguado-3a455311b/' className='cursor-pointer flex hover:text-blue-600 ml-4 p-1' target="_blank" rel="noopener noreferrer">
 
-   <FaLinkedinIn className=" ml-4" size={size}/> <span className='pl-1'>LinkedIn</span>
+   <FaLinkedinIn className="" size={size}/> <span className='pl-1 hidden sm:block'>LinkedIn</span>
    </a>
 
-   <a href='https://github.com/joeoverflowcode/' className='cursor-pointer flex hover:text-blue-600' target="_blank" rel="noopener noreferrer">
+   <a href='https://github.com/joeoverflowcode/' className='cursor-pointer flex hover:text-blue-600 ml-4 p-1' target="_blank" rel="noopener noreferrer">
 
-<FaGithub className=" ml-4" size={size}/><span className='pl-1'>GitHub</span>
+<FaGithub className="" size={size}/><span className='pl-1 hidden sm:block'>GitHub</span>
    </a>
 
 
-<a href='https://youtube.com/@JoeAguado?si=S0ngzFnurTO5voZu' className='cursor-pointer flex hover:text-blue-600' target="_blank" rel="noopener noreferrer">
+<a href='https://youtube.com/@JoeAguado?si=S0ngzFnurTO5voZu' className='cursor-pointer flex hover:text-blue-600 ml-4 p-1' target="_blank" rel="noopener noreferrer">
 
-   <FaYoutube className=" ml-4" size={size}/> <span className='pl-1'>Youtube</span>
+   <FaYoutube className="" size={size}/> <span className='pl-1 hidden sm:block'>Youtube</span>
 </a>
   </div>
   )

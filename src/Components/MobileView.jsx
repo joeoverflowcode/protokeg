@@ -12,9 +12,9 @@ import NewButton from './NewButton'
 function MobileView() {
 
   return (
-      <div className='sm:hidden h-full w-full flex flex-col bg-gradient-radial  from-slate-600 via-slate-700 to-slate-900'>
+      <div className='sm:hidden h-screen w-full flex flex-col bg-gradient-radial from-slate-700 via-slate-800 to-slate-950'>
 
-            <div className='flex flex-col h-full w-full justify-center items-center mt-4'>
+            <div className='flex flex-col h-full w-full items-center justify-end'>
 
               <Bio 
                 className='font-bold text-gray-200 text-5xl'
@@ -31,10 +31,10 @@ function MobileView() {
               tStyle='text-white m-2 flex font-bold tracking-widest'/> */}
               <NewButton />
 
-              <div className="w-full h-full shadow-lg bg-contain bg-no-repeat bg-center bg-[url('../src/assets/cropped.png')]" >
-                
-                </div>
-
+              {/* <div className="w-full h-[70%] bg-no-repeat bg-contain bg-center bg-[url('../src/assets/cropped.png')]" >
+                </div> */}
+                <img className='max-h-[80%] mt-4' src={Cropped} alt=''/>
+<MobileFooter />
         
             </div>
           </div>   
