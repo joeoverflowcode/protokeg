@@ -25,7 +25,7 @@ function Skills() {
 
 </div>
 
-            <div className=" w-full flex-col grid grid-cols-3 sm:grid-cols-5 gap-8 sm:gap-10 m-auto grid-auto-rows-auto p-8 sm:p-20">
+            <div className="flex-col grid grid-cols-3 sm:grid-cols-5 gap-8 sm:gap-10 m-auto grid-auto-rows-auto p-8 sm:p-20">
 
                 <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"alt="The logo icon for JavaScript" title="JavaScript"/>
 
