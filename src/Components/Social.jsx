@@ -14,7 +14,7 @@ function Social({size, className}) {
 
   return (
     <div 
-    className='flex sm:justify-center p-1' 
+    className='flex sm:justify-center ' 
     >
 
 <a href='mailto:aguado.joe@gmail.com?subject=Work Inquiry' className='cursor-pointer flex hover:text-blue-600 p-1'>

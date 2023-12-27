@@ -8,13 +8,13 @@ import Movies from '../assets/Movies.png'
 
 function Projects() {
   return (
-    <div className=' flex flex-col items-center bg-gradient-radial from-slate-100 via-neutral-200 to-gray-500 p-8'>
+    <div className=' flex flex-col items-center bg-gradient-radial from-white via-white to-white p-8'>
 <div className='w-full flex-1 flex-col'>
 
 {/* <h1 className='text-center m-2 text-4xl sm:text-5xl font-bold underline'>Projects</h1> */}
-<h1 className='py-4 text-center text-4xl font-bold m-1 text-[#001b5e] tracking-tighter'><span className='pl-1 pr-1 border-[#001b5e] border '>P</span>rojects</h1>
+<h1 className='text-4xl py-4 text-center sm:text-4xl font-bold m-1 text-[#001b5e] tracking-tighter'><span className='pl-1 pr-1 border-[#001b5e] border '>P</span>rojects</h1>
 <p>Id venenatis a condimentum vitae sapien pellentesque habitant morbi tristique. Faucibus vitae aliquet nec ullamcorper sit. Amet est placerat in egestas erat imperdiet sed. Nam libero justo laoreet sit amet cursus sit. Facilisis sed odio morbi quis commodo. Nam aliquam sem et tortor consequat id porta.</p>
-<div className='w-full grid grid-cols-1 md:grid-cols-2 p-8 gap-10'>
+<div className='w-full grid grid-cols-1 lg:grid-cols-2 p-8 gap-10'>
 
 
 <Project

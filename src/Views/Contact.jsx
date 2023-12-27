@@ -4,9 +4,9 @@ function Contact() {
   return (
 
 
-    <div className='sm:m-auto sm:max-w-[1040px] p-4 bg-gray-200 sm:bg-white sm:rounded-xl sm:border-2 sm:border-gray-300'>
+    <div className='sm:m-auto sm:max-w-[1040px] p-4 '>
 {/* <h1 className='py-4 text-4xl font-bold text-center text-[#001b5e]'>Contact</h1> */}
-<h1 className='py-4 text-center text-4xl font-bold m-1 text-[#001b5e] tracking-tighter'><span className='pl-1 pr-1 border-[#001b5e] border '>C</span>ontact</h1>
+<h1 className='pt-8 text-center text-4xl font-bold m-1 text-[#001b5e] tracking-tighter'><span className='pl-1 pr-1 border-[#001b5e] border '>C</span>ontact</h1>
 <form action='https://getform.io/f/ce200de9-c4ba-40ce-bf07-723f4335cf36' method='POST' encType='multipart/form-data' className='text-[#001b5e]'>
     <div className='grid sm:grid-cols-2 gap-4 w-full py-2'>
         <div className='flex flex-col'>

@@ -34,17 +34,19 @@ function TopNav({iconColor}) {
         setNav(!nav)
         console.log('state changed')
     }
-    const outlineMenuColor = `${iconColor} absolute top-4 right-4 z-[99] sm:hidden text-white`
+    const outlineMenuColor = `${iconColor} absolute top-4 right-4 z-[99] sm:hidden text-gray-300 border border-gray-400 m-1 px-1 rounded-md border-2`
 
 
   return (
     <div>
 
 
+
 <AiOutlineMenu 
-        size={30}
+        size={40}
         className={outlineMenuColor}
         onClick={handleNav} />
+
         { nav ? (
             <div className='sm:hidden fixed w-full h-screen bg-white/70 flex flex-col justify-center items-center z-20'>
 

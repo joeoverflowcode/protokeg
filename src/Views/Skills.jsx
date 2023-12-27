@@ -6,26 +6,27 @@ import Rubix from '../Components/Rubix'
 function Skills() {
     return (
 
-        <div className="flex flex-col bg-gradient-radial from-slate-100 via-neutral-200 to-gray-500">
+        <div className="flex flex-col bg-gradient-radial from-white via-white to-white">
 
-{/* 
-<div className='flex-1 flex-col'>
 
-                <h1 className='text-center m-2 text-4xl sm:text-5xl font-bold underline '>Skills</h1>
 
-    <p className='text-3xl p-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-    </p>
-    <p className='text-3xl p-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-    </p>
-</div> */}
-<div className='w-full h-full flex justify-center'>
+
+<div className='w-full flex-1 flex-col pt-4'>
+
+{/* <h1 className='text-center m-2 text-4xl sm:text-5xl font-bold underline'>Projects</h1> */}
+<h1 className='text-4xl py-4 text-center sm:text-4xl font-bold m-1 text-[#001b5e] tracking-tighter'><span className='pl-1 pr-1 border-[#001b5e] border '>S</span>kills</h1>
+<p className='p-4'>Id venenatis a condimentum vitae sapien pellentesque habitant morbi tristique. Faucibus vitae aliquet nec ullamcorper sit. Amet est placerat in egestas erat imperdiet sed. Nam libero justo laoreet sit amet cursus sit. Facilisis sed odio morbi quis commodo. Nam aliquam sem et tortor consequat id porta.</p>
+</div>
+
+
+{/* <div className='w-full h-full flex justify-center pb-4'>
 
 
     <Rubix />
 
-</div>
+</div> */}
 
-            <div className="flex-col grid grid-cols-3 sm:grid-cols-5 gap-8 sm:gap-10 m-auto grid-auto-rows-auto p-8 sm:p-20">
+            <div className="flex-col grid grid-cols-3 sm:grid-cols-5 gap-8 sm:gap-10 m-auto grid-auto-rows-auto p-8 sm:p-10">
 
                 <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"alt="The logo icon for JavaScript" title="JavaScript"/>
 

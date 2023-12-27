@@ -16,11 +16,13 @@ import MonoSurfEdit from '../assets/MonoSurfEdit.png'
 function About() {
   return (
     <>
-   <div className='md:hidden block bg-gradient-radial from-slate-100 via-neutral-200 to-gray-500'>
+   <div className='md:hidden block 
+   bg-gradient-radial from-white via-white to-white
+   '>
 
-<div className='flex flex-col sm:flex items-center mt-8'>
+<div className='flex flex-col sm:flex items-center mt-16'>
 
-<img className='max-w-[60%] m-auto border-2 border-black' src={MonoSurfEdit}/> 
+<img className='max-w-[60%] m-auto border-2 border-black mt-2' src={MonoSurfEdit}/> 
 <h4 className='flex flex-col text-center items-center m-auto'>Oaxaca, Puerto Escondido 2025</h4>     
 </div>
 
@@ -45,7 +47,7 @@ function About() {
 
 </div>
 
-<div className='md:block hidden bg-gradient-radial from-slate-100 via-neutral-200 to-gray-500 w-full m-auto h-full'>
+<div className='md:block hidden bg-gradient-to-b from-white via-gray-100 to-gray-300 bg-gradient-radial w-full h-full'>
 
 <div className='flex h-full '>
 
@@ -56,7 +58,7 @@ function About() {
 </div>
 <div className='flex flex-col justify-center'>
 
-<div className='flex flex-col max-w-[40%]'>
+<div className='flex flex-col'>
 <h1 className='text-4xl font-bold m-1 text-black tracking-tight'><span className='pl-1 pt-1 pr-1 border-black border'>A</span>bout Joe</h1>
 <h2 className='text-2xl m-1 tracking-wider'>Full Stack <span className='text-blue-800 font-bold tracking-tight'> Web Developer</span></h2>
 </div>
@@ -68,7 +70,7 @@ function About() {
       <p className='text-xl m-2 text-black p-1'>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br></br>
       </p>
 </div>
-<div className='flex'>
+<div className='flex pl-10'>
 
 <NewButton/>
 </div>
