@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://joeoverflowcode.github.io",
+  "homepage": "https://joeoverflowcode.github.io/protokeg",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
