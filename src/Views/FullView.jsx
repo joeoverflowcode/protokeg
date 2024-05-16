@@ -4,6 +4,8 @@ import Button from '../Components/Button'
 
 import React from 'react'
 import NewButton from '../Components/NewButton'
+import Social from '../Components/Social'
+
 
 
 function FullView() {
@@ -30,6 +32,7 @@ function FullView() {
 <div className='flex flex-col w-full justify-center items-center'>
     <Bio 
     className='text-5xl font-bold'/>
+    hellooooo
     <TypeWords
     className='text-3xl'
     repeat={3}/>
@@ -40,10 +43,12 @@ function FullView() {
     text='CONTACT'
     tStyle='text-white m-2 flex font-bold tracking-widest'
     /> */}
+
     <NewButton/>
 
 
-    {/* <FillButton /> */}
+
+
 
 </div>
 

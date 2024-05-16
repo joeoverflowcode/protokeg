@@ -27,7 +27,7 @@ function About() {
 </div>
 
 <div className='flex flex-col w-full m-4'>
-<h1 className='text-4xl w-full font-bold m-1 text-black tracking-tight'><span className='pl-1 pt-1 pr-1 border-black border'>A</span>bout Joe</h1>
+<h1 className='text-4xl w-full font-bold m-1 text-black '><span className='pl-2 pt-1 pr-1 border-black border'>A</span>bout Joe</h1>
 <h2 className='text-2xl flex w-full m-1 tracking-wider'>Full Stack <span className='text-blue-800 font-bold tracking-tight pl-1'> Web Developer</span></h2>
 </div>
 

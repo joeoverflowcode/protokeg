@@ -57,7 +57,7 @@ function App() {
 <Outlet />
 
 
-    <footer className='bg-gray-900 text-white sticky bottom-0 z-50'>
+    <footer className='font-bold text-black absolute w-full bottom-0 z-50'>
     <Footer />
     
     </footer>
